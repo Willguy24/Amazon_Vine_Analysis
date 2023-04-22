@@ -6,10 +6,13 @@ This analysis focuses on publicly available reviews for Amazon products, and it 
 To determine if there is a bias in the reviews, the data is split into two dataframes: one for reviews that are part of the Vine service and one for reviews that are not. The tables are then used to determine the total number of reviews, the total number of five-star reviews, and the percentage of five-star reviews.
 
 The results for reviews that are part of the Vine program are presented below:
---vine_reviews
+
+![vine_review](Vine_Reviews.png)
 
 The results for reviews that are not part of the Vine program are presented below:
---non-vine_reviews
+
+![Non-vine reviews](NonVine_Reviews.png)
+
 
 ## Summary
 Based on the results, there appears to be a bias towards not giving five-star ratings for Vine reviews. An additional analysis can be conducted using the available data to further differentiate between Vine and non-Vine reviews that are verified purchases to see if they align more closely. This could potentially filter out reviews that are skewed one way or another.
